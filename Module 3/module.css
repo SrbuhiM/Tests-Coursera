@@ -1,40 +1,42 @@
-.container-fluid {
-	border: 1px solid black;
-	background-color: #FFEBCD;
-	height: 1000px;
-	margin:30px;
-}
-
-.body {
-	margin: 0px;
-}
-#collapsable-nav {
-    vertical-align: middle;
-}
-.navbar-header {
-    border: 2px solid black;
-    top: 3px;
-    position: static;
-}
-.navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-.button {
-    overflow: visible;
-    margin: 0;
-    font: inherit;
-    color: inherit;
-}
-
-@media (max-width: 767px) {
-  {
-	background-color: green;
-  }
-}
+.section.container-fluid {
+ 
+ 	border: 1px solid black;
+ 	background-color: #FFEBCD;
+ 	height: 1000px;
+ 	margin:30px;
+ }
+ 
+ .body {
+ 	margin: 0px;
+ }
+ #collapsable-nav {
+     vertical-align: middle;
+ }
+.navbar-header .button.navbar-toggle, .navbar-header .icon-bar {
+     border: 2px solid black;
+     top: 3px;
+     position: static;
+ }
+ .navbar-toggle {
+     position: relative;
+     float: right;
+     padding: 9px 10px;
+     margin-top: 8px;
+     margin-right: 15px;
+     margin-bottom: 8px;
+     border: 1px solid black;
+     border-radius: 4px;
+ }
+ .button {
+     overflow: visible;
+     margin: 0;
+     font: inherit;
+     color: inherit;
+ }
+ 
+ @media (max-width: 767px) {
+ .colored {
+ {
+ 	background-color: green;
+   }
+ }
