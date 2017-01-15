@@ -33,7 +33,16 @@
      font: inherit;
      color: inherit;
  }
- 
+ .visible-xs {
+    display: none;
+  display: block;
+}
+.li {
+    border: 1px solid black;
+ float: left;
+ position: relative;
+}
+
  @media (max-width: 767px) {
  .colored {
  {
