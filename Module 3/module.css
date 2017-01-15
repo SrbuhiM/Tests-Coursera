@@ -33,6 +33,9 @@
      border: 1px solid black;
      border-radius: 4px;
  }
+.collapse {
+    display: none;
+}
  .button {
      overflow: visible;
      margin: 0;
@@ -41,7 +44,7 @@
  }
  .visible-xs {
     display: none;
-  display: block;
+  
 }
 .li {
     border: 1px solid black;
