@@ -1,4 +1,4 @@
-.section.container-fluid {
+.section .container-fluid {
  
  	border: 1px solid black;
  	background-color: blue;
@@ -21,7 +21,6 @@
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
      border: 2px solid black;
      top: 3px;
-     position: static;
  }
  .navbar-toggle {
      position: relative;
