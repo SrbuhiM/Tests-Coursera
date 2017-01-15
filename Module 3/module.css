@@ -8,10 +8,10 @@
 .body {
 	margin: 0px;
 }
-#bs-example-navbar-collapse-1 {
+#collapsable-nav {
     vertical-align: middle;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header .button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid black;
     top: 3px;
     position: static;
@@ -26,10 +26,8 @@
     border: 1px solid black;
     border-radius: 4px;
 }
-button {
+.button {
     overflow: visible;
-}
-button, input, optgroup, select, textarea {
     margin: 0;
     font: inherit;
     color: inherit;
