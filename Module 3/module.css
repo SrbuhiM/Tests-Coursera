@@ -12,6 +12,12 @@
  #navbar-collapse {
      vertical-align: middle;
  }
+#navbar-collapse.collapse {
+    display: block;
+    height: auto;
+    padding-bottom: 0;
+    overflow: visible;
+}
 .navbar-header .button.navbar-toggle, .navbar-header .icon-bar {
      border: 2px solid black;
      top: 3px;
