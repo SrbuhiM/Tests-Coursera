@@ -18,7 +18,7 @@
     padding-bottom: 0;
     overflow: visible;
 }
-.navbar-header .button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
      border: 2px solid black;
      top: 3px;
      position: static;
@@ -33,9 +33,6 @@
      border: 1px solid black;
      border-radius: 4px;
  }
-.collapse {
-    display: none;
-}
  .button {
      overflow: visible;
      margin: 0;
