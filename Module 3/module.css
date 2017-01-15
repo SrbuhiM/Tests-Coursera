@@ -1,7 +1,7 @@
 .section.container-fluid {
  
  	border: 1px solid black;
- 	background-color: #FFEBCD;
+ 	background-color: blue;
  	height: 1000px;
  	margin:30px;
  }
@@ -43,7 +43,7 @@
      color: inherit;
  }
  .visible-xs {
-    display: none;
+    display: block;
   
 }
 .li {
