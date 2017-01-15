@@ -9,6 +9,9 @@ body {
 	margin: 0px;
 }
 
+#bs-example-navbar-collapse-1 {
+    vertical-align: middle;
+}
 @media (max-width: 767px) {
   .colored {
 	background-color: green;
