@@ -5,10 +5,9 @@
  	height: 1000px;
  	margin:30px;
  }
- 
- .body {
- 	margin: 0px;
- }
+.p {
+background-color: blue;
+}
  #navbar-collapse {
      vertical-align: middle;
  }
