@@ -16,7 +16,6 @@
     display: block;
     height: auto;
     padding-bottom: 0;
-    overflow: visible;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
      border: 2px solid black;
@@ -30,27 +29,13 @@
      margin-right: 15px;
      margin-bottom: 8px;
      border: 1px solid black;
-     border-radius: 4px;
+   
  }
- .button {
-     overflow: visible;
-     margin: 0;
-     font: inherit;
-     color: inherit;
- }
+ 
  .visible-xs {
     display: block;
   
 }
-.li {
-    border: 1px solid black;
- float: left;
- position: relative;
-}
 
- @media (max-width: 767px) {
- .colored {
- {
- 	background-color: green;
-   }
- }
+
+ 
