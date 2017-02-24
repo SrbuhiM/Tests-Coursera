@@ -1,0 +1,36 @@
+section.container-fluid {
+    border: 1px solid black;
+    margin: 30px;
+    font-family: 'Dancing Script', cursive;
+    background-color: powderblue;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Engagement', cursive;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.navbar-header {
+    height: 80px;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .colored {
+        background-color: cornflowerblue;
+    }
+}
